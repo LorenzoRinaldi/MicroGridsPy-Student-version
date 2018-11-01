@@ -1163,8 +1163,8 @@ def Plot_Energy_Total(instance, Time_Series, plot, Plot_Date, PlotTime):
         ax6= Plot_Data['State_Of_Charge_Battery'].plot(style='k--', secondary_y=True, linewidth=2, alpha=0.7 ) # Plot the line of the State of charge of the battery
         
         # Define name  and units of the axis
-        ax1.set_ylabel('Power (kW)')
-        ax1.set_xlabel('hours')
+        ax0.set_ylabel('Power (kW)')
+        ax0.set_xlabel('hours')
         ax6.set_ylabel('Battery State of charge (kWh)')
                 
         # Define the legends of the plot
