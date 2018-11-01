@@ -48,11 +48,11 @@ else:
 
 # Energy Plot    
 S = 1 # Plot scenario
-Plot_Date = '07/10/2017 00:00:00' # Day-Month-Year
-PlotTime = 7# Days of the plot
+Plot_Date = '03/25/2017 00:00:00' # Day-Month-Year
+PlotTime = 1# Days of the plot
 Time_Series = Integer_Time_Series(instance,Scenarios, S) 
 
-plot = 'Average' # 'No Average' or 'Average'
+plot = 'No Average' # 'No Average' or 'Average'
 Plot_Energy_Total(instance, Time_Series, plot, Plot_Date, PlotTime)
 
 
